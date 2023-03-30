@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+body{
+    background: rgb(0, 128, 255)
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    width: 50%;
+    position: absolute;
+    margin-left: 17.8em;
+    margin-top: 2em;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    
+}
+
+form {
+    padding: 15px;
+    background: rgb(0, 128, 255) 
+}
+
+header input {
+    display: block;
+    width: 100vh;
+    padding: 10px;
+    margin: 10px 0 15px 0;
+    
+}
+
+span {
+    display: none;
+}
+
+container input {
+    display: block;
+    width: 100vh;
+    padding: 8px;
+    margin: 10px 0 15px 0;
+}
+
+#fluxograma{
+    margin: 15px 0 0 10;
+    
+}
+
+#prazo.final, #prazo.inicial {
+    font-size: 15em;
+}
+
+.data input {
+  width: 30vh;  
+}
+
+button {
+    padding: 10px 25px 10px 25px;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 2em;
+    font-size: 17px;
+    color: blue;
+    border-color: black;
+    position: relative;
+   
+}
+
+button:hover {
+    background: rgb(17, 28, 155);
+    color: white;
+    transition: .4s; 
+}
+
+@media (max-width:1040px) {
+    fieldset {
+        margin-left: 1px;
+        width: 25vh;
+    }
+
+   
+}
+
+@media (max-width:723px) {
+    
+    fieldset {
+        width: 75%;
+       
+    }
+
+        form input, textarea {
+            width: 100%;
+        }
+
+}
+
+/*form {
+    width: 100%;
+}
+
+    form input, textarea {
+        width: 90%;
+    }*/
+
+
+
+
+    
